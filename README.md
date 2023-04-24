@@ -4,7 +4,7 @@ This is a Telegram bot that allows users to interact with it through various com
 
 ## Getting Started
 
-To get started with this project, you will need to have a Telegram account and create a new bot using the BotFather. Once you have created a bot, you will need to obtain the bot token and add it to your .env file.
+To get started with this project, you will need to have a Telegram account and create a new bot using the BotFather. Once you have created a bot, you will need to obtain the bot token and add it to your `.env` file.
 
 ### Prerequisites
 
@@ -47,8 +47,8 @@ The help command displays a list of available commands that the user can use to 
 
 ## Configuration
 
-The configuration for the bot is stored in a .env file in the root directory of the project. The `config.service.ts` file reads the .env file and provides access to the configuration variables.
+The configuration for the bot is stored in a `.env` file in the root directory of the project. The `config.service.ts` file reads the .env file and provides access to the configuration variables.
 
 ## Conclusion
 
-This project provides a basic template for building Telegram bots using the Telegraf library. It demonstrates how to use sessions to store user data, how to create custom commands. For production pls use Redis instead of `sessions.json` file. With this foundation, you can build more complex bots that can perform a wide range of tasks.
+This project provides a basic template for building Telegram bots using the Telegraf library. It demonstrates how to use sessions to store user data, how to create custom commands. For production pls use Redis instead of `sessions.json` file. With this foundation, you can build more complex bots that could perform a wide range of tasks.

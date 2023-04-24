@@ -6,7 +6,7 @@ export class ConfigService implements IConfigService {
   constructor() {
     const { error, parsed } = config();
 
-    if (error) throw new Error(".env file undefined");
+    if (error) throw new Error(".env file is undefined");
 
     if (!parsed) throw new Error("empty .env file");
 
